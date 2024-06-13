@@ -4,9 +4,11 @@
 // myFunction("msg", "hello");
 
 //Sum of two numbers
-function sum(x, y){
-    r = x+y;
-    return r;
-}
-let result = sum(8,9);
-console.log(result);
+// function sum(x, y){
+//     r = x+y;
+//     return r;
+// }
+// let result = sum(8,9);
+// console.log(result);
+
+
