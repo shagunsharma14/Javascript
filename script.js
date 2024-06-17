@@ -24,3 +24,29 @@
 //Practice Question
 // let para = document.querySelector("p");
 // para.classList.add("newClass");
+let btn1 = document.querySelector("#btn1");
+// btn1.onclick = (e)=>{
+//     console.log("btn1 was clicked!");
+//     console.log(e.type);
+//     console.log(e.target);
+//     console.log(e.clientX, e.clientY);
+// };
+// btn1.addEventListener("click",(e)=>{
+//     console.log("btn1 was clicked!");
+// });
+// let handler = ()=>{
+//     console.log("btn1 was clicked again!");
+// }
+// btn1.addEventListener("click",handler);
+// btn1.removeEventListener("click", handler);
+currMode = "white";
+btn1.addEventListener("click", ()=>{
+    if(currMode === "white"){
+        document.body.style.backgroundColor = "black";
+        currMode = "dark";
+    } else{
+        document.body.style.backgroundColor = "white";
+        currMode = "white";
+    }
+    console.log(currMode)
+});
